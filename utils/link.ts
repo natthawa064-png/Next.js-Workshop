@@ -1,0 +1,9 @@
+type NavLink = {
+    href:string;
+    label:string;
+}
+export const links:NavLink[] = [
+    {href: '/', label: 'Home'},
+    {href: '/favorites', label:'Favorites'},
+    {href: '/camp', label:'Camp'},
+]
